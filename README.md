@@ -246,7 +246,48 @@ Vamos começar a diversão! 🥳
 E ele deverá aparecer dessa forma:
 
 ![Site no Ar](docs/images/site.png)
+## 🏁 Evidências de Sucesso
 
+
+Abaixo, os resultados resumidos do projeto.
+
+
+### 🚀 Resumo da Execução
+
+* **Infra:** 11 recursos criados via Terraform.
+
+* **Configuração:** Instalação de Nginx e Git via Ansible concluída.
+
+* **Status:** Aplicação online.
+
+
+<details>
+
+  <summary>📸 Clique aqui para ver todos os prints detalhados da execução</summary>
+
+  
+
+  #### Passo a Passo Terraform
+
+  ![Passo 1](docs/images/terraform.png)
+
+  ![Passo 2](docs/images/terraform1.png)
+
+  
+
+  #### Passo a Passo Ansible
+
+  ![Ansible 1](docs/images/ansible.png)
+
+  ![Ansible 2](docs/images/ansible1.png)
+
+  
+
+  #### Validação Final
+
+  ![Site no Ar](docs/images/bem-vindo-a-nuvem.png)
+
+</details>
 13. Para destruir a infraestrutura na nuvem, execute o comando abaixo:
     ```bash
     terraform destroy
